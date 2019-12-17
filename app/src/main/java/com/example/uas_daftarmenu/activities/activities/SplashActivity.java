@@ -1,4 +1,4 @@
-package com.example.uas_daftarmenu.activities;
+package com.example.uas_daftarmenu.activities.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,7 +19,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this,WelcomeActivity.class));
+                startActivity(new Intent(SplashActivity.this, WelcomeActivity.class));
                 finish();
             }
         },5000);

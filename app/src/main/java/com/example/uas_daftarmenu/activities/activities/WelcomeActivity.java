@@ -1,4 +1,4 @@
-package com.example.uas_daftarmenu.activities;
+package com.example.uas_daftarmenu.activities.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
